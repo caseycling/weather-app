@@ -12,7 +12,7 @@ body {
   background-image: url('./assets/cool-bg.jpg');
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease-out;
+  transition: 0.4s ease-out;
 }
 
 .app.warm {
@@ -29,6 +29,7 @@ main {
   width: 100%;
   margin: 0 0 75px;
   background-color: white;
+  
 }
 
 .search-box .search-bar {
@@ -50,8 +51,6 @@ main {
 
   color: #313131;
   font-size: 20px;
-
-  transition: 0.4s ease;
 }
 
 search-box search-bar:focus {
